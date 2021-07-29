@@ -16,6 +16,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Fake Ethernet</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-RMNE.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Enable TPD0 GPIO pinning</string>
 				<key>Enabled</key>
 				<true/>
@@ -201,7 +209,7 @@
 				</data>
 				<key>dpcd-max-link-rate</key>
 				<data>
-				FAAAAA==
+				CgAAAA==
 				</data>
 				<key>enable-backlight-registers-fix</key>
 				<data>
@@ -283,6 +291,18 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/Lilu</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>NullEthernet.kext</string>
+				<key>Comment</key>
+				<string>1.0.6</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/NullEthernet</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
